@@ -1,0 +1,233 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #000;
+}
+header{
+  background:url(../public/images/background.png);
+  color: #ffffff;
+}
+header nav{
+  padding-top:10px ;
+  display: flex;
+  justify-content: space-between;
+}
+header ul{
+  list-style: none;
+  display: flex; 
+  gap: 80px;
+  margin-left: 50px;
+}
+header li{
+  font-size: 18px;
+}
+header p{
+  font-size: 18px;
+  margin-right: 120px;
+}
+header h3{
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 460px;
+  text-transform: uppercase;
+}
+header h1{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+  line-height: 110px;
+}
+header button{
+  margin-left: 750px;
+  margin-bottom: 120px;
+  text-transform: uppercase;
+  border-radius: 24px;
+  width: 200px;
+}
+.product{
+  padding: 50px;
+ color: #ffffff;
+  background: #171717;
+}
+.product h2{
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.product a{
+  color: #076a07;
+  float: right;
+}
+.fig{
+  display: flex;
+  gap: 45px;
+}
+.fig figure{
+  background: #e6e2e2;
+  height: 494px;
+  width: 313px;
+  border-radius: 18px;
+}
+.fig a{
+  float: none;
+  color: #b5b2b2;
+  text-decoration: line-through;
+}
+.fig a:hover{
+  color: #b5b2b2;
+}
+figcaption{
+  text-align: center;
+  font-size: 24px;
+  color: #171717;
+  font-weight: 500;
+}
+figure button{
+  font-size: 14px;
+  background: #2323df;
+  color: #ffffff;
+  font-weight: 100;
+  border-radius: 22px;
+  text-transform: uppercase;
+  width: 130px;
+  height: 40px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+.nuratrue{
+  background: #2323df;
+  height: 1000px;
+  color: #ffffff;
+  display: flex;
+}
+.nuratrue img{
+  width: 720px;
+  height: 1103px;
+  padding-top: 15px;
+}
+.nuradetails{
+  padding-left: 20px;
+}
+.nuradetails h2{
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 70px;
+  margin-top: 180px;
+  margin-bottom: 50px;  
+}
+.nuradetails p{
+  font-size: 28px;
+}
+.nuradetails a{
+  color: #076a07;
+}
+.nuradetails a:hover{
+  color: #076a07;
+}
+.nurabackup{
+  background: url(../public/nuraback.png) no-repeat center;
+  height: 500px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.nuratext{
+  float: right;
+  margin-right: 290px;
+  padding-top: 60px;
+}
+.nuratext h2{
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.nuratext p{
+  font-size: 20px;
+}
+.subscription{
+  background: url(../public/person.png) no-repeat;
+  width: 1518px;
+  height: 570px;
+  color:#ffffff;
+  padding-top: 250px;
+}
+.subscription h3{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.subscription p{
+  font-size: 20px;
+  text-align: center;
+  line-height: 38px;
+}
+.subscription button{
+  margin-left: 600px;
+  margin-top: 60px;
+  width: 300px;
+  text-transform: uppercase;
+  background: #2323df;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 22px;
+}
+.youtube{
+  background: #ebe9e9;
+  height: 739px;
+  padding-top: 300px;
+  padding-left: 650px;
+}
+.featured{
+  background: #272727;
+  padding-top: 80px;
+  padding-left: 95px;
+  padding-bottom: 70px;
+}
+.featured p{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #076a07;
+  text-align: center;
+}
+footer{
+  color: #ffffff;
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+.footer{
+  display: flex;
+  margin-bottom: 40px;
+}
+.footer h5{
+  font-size: 30px;
+  font-weight: 400;
+}
+footer table{
+  margin-left: 60px;
+  display: flex;
+  gap:180px;
+}
+footer ul{
+  list-style: none;
+}
+.head{
+  text-transform: uppercase;
+  color: #737373;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  color: #737373;
+}
+.copyright ul{
+  display: flex;
+  gap: 30px;
+}
