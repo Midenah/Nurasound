@@ -1,32 +1,53 @@
 import {GrYoutube} from 'react-icons/gr'
+import {PiFanFill} from 'react-icons/pi'
+import {FaBars} from 'react-icons/fa'
 import './App.css'
 
 function App() {
   return (
     <>
     <header>
-      <nav>
+      <nav className='header-nav'>
         <ul>
-          <li>nura</li>
+          <li><PiFanFill/>nura</li>
           <li>Products</li>
           <li>Subcription</li>
           <li>Why Nura?</li>
           <li>Support</li>
         </ul>  
-        <p>Cart(0)</p>      
+        <p>Cart(0)</p>    
       </nav>
+      <nav className='mobile'>
+      <div className='bar'><FaBars/></div>
+        <ul>
+          <li><PiFanFill/>nura</li>
+          <li>Products</li>
+          <li>Subcription</li>
+          <li>Why Nura?</li>
+          <li>Support</li>
+        </ul> 
+        <p>Cart(0)</p>
+      </nav> 
+      <div className='header-text'>
       <h3>our biggest sale now live</h3>
-      <h1>Black Friday Starts Now</h1>
+      <h1>Black Friday Starts Now!</h1>
+      <div className='btn'>
       <button>shop sale now </button>
+      </div>
+      </div>    
     </header> 
+
     <div className='product'>
-    <a href=''>View all discount</a>
-      <h2>Featued discounts</h2>      
-      <div className='fig'>
+      <div className='product-text'>
+      <h2>Featued discounts</h2> 
+      <a href=''>View all discount</a> 
+      </div>
+           
+      <div className='product-image'>
         <figure>
           <img src='images/nuraphone.png'/>
           <figcaption>
-            Nuraphone  <br/> <a>$399</a> $299.25<br/>
+            Nuraphone  <br/> <strike>$399</strike> $299.25<br/>
             <button>shop now</button>
           </figcaption>
         </figure>
@@ -34,7 +55,7 @@ function App() {
         <figure>
         <img src='images/nuratrue.png'/>
           <figcaption>
-            NuraTrue <br/><a>$199.99</a> $139.99<br/>
+            NuraTrue <br/><strike>$199.99</strike> $139.99<br/>
             <button>shop now</button>
           </figcaption>
         </figure>
@@ -42,7 +63,7 @@ function App() {
         <figure>
         <img src='images/nurabuds.png'/>
           <figcaption>
-            NuraBuds 2<br/><a>$199</a> $89.25<br/>
+            NuraBuds 2<br/><strike>$199</strike> $89.25<br/>
             <button>shop now</button>
           </figcaption>
         </figure>
@@ -51,7 +72,7 @@ function App() {
         <img src='images/nurabluetooth.png'/>
           <figcaption>
             Nura Bluetooth&reg;5.3<br/>Audio Transmitter<br/>
-            <a>$399</a> $299.25<br/>
+            <strike>$399</strike> $299.25<br/>
             <button>shop now</button>
           </figcaption>
         </figure>
@@ -59,7 +80,9 @@ function App() {
     </div> 
 
     <div className='nuratrue'>
+      <div className='nuratrue-image'>
       <img src="images/nuradetails.png" alt="" />
+      </div>
         <div className='nuradetails'>
           <h2>For your<br/>ears only.
             </h2>
@@ -75,13 +98,14 @@ function App() {
              your personalised hearing profile.
           </p>
         </div>
-    </div>    
+    </div> 
+
     <div className='nurabackup'>
-      <div className='nuratext'>
+      <div className='nurabackup-text'>
       <h2>Play from <br/>any device</h2>
-      <p>Your hearing profile is stored on the<br/> 
-            earbuds, and is applied to whatever you<br/>
-             listen to, on any device.
+      <p>Your hearing profile is <a>stored on the<br/>earbuds</a>,
+             ,and is applied to whatever you<br/>
+             listen to,<a>on any device</a>.
       </p>
       <br/>
       <p>
@@ -91,6 +115,7 @@ function App() {
       </p>
       </div>
     </div>
+
     <div className='subscription'>
       <h3>A sound subscription</h3>
       <p>Experience personalised sound across our devices on a <br/>
@@ -99,10 +124,11 @@ function App() {
       <button>discover nuranow</button>
     </div>
     <div className='youtube'>
-      <GrYoutube size={300} color='#b5b2b2'/>
+      <GrYoutube size={200} color='#b5b2b2'/>
     </div>
     <div className='featured'>
       <p>as featured in</p>
+      <div className='featured-image'>
       <img src='images/logo.png'/>
       <img src='images/Logo2.png '/>
       <img src='images/Logo3.png'/>
@@ -125,11 +151,13 @@ function App() {
       <img src='images/Logo20.png'/>
       <img src='images/Logo21.png'/>
       <img src='images/Logo22.png'/>
+      </div>
+      
     </div>
     <footer>
       <div className='footer'>
       <div>
-      <h5>nura</h5>
+      <h5><PiFanFill/>nura</h5>
       <p>Nura designs headphones<br/>
          tuned to you. Bringing you<br/>
           closer to music with <br/>
