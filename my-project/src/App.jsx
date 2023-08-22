@@ -36,7 +36,6 @@ function App() {
       </div>
       </div>    
     </header> 
-
     <div className='product'>
       <div className='product-text'>
       <h2>Featued discounts</h2> 
