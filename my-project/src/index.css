@@ -275,13 +275,13 @@ footer ul{
   .header-nav{
   display: none;
   }
-  header .mobile{
+.mobile{
     display: flex;
     justify-content: space-between;
   }
   .mobile ul{
     position: absolute;
-    left: 1001%;
+    right: -1001%;
     list-style: none;
     gap: 1rem;
   }
