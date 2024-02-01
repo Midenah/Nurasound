@@ -1,60 +1,58 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background: #000;
   width: 100%;
+  overflow-x: hidden;
 }
-header{
-  background:url(../public/images/background.png) no-repeat;
+header {
+  background: url(../public/images/background.png) no-repeat;
   color: #ffffff;
   align-items: center;
   background-size: 100%;
 }
-.header-nav{
+.header-nav {
   padding: 2rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .bar{
-  display: none;
-}
-.header-nav ul{
+.header-nav ul {
   list-style: none;
-  display: flex; 
-  gap: 5rem
+  display: flex;
+  gap: 5rem;
 }
-header li{
+header li {
   font-size: 18px;
   align-items: center;
 }
-.mobile{
+.mobile {
   display: none;
 }
-header p{
+header p {
   font-size: 18px;
 }
-.header-text{
+.header-text {
   margin-top: 20rem;
 }
-header h3{
+header h3 {
   font-weight: 400;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
 }
-header h1{
+header h1 {
   text-align: center;
   font-weight: 600;
   font-size: 64px;
   line-height: 110px;
 }
-.btn{
+.btn {
   text-align: center;
 }
-header button{
+header button {
   margin-bottom: 120px;
   text-transform: uppercase;
   border-radius: 24px;
@@ -63,40 +61,40 @@ header button{
 }
 
 /* main product */
-.product{
+.product {
   padding: 4rem;
   color: #ffffff;
   background: #171717;
   padding-bottom: 8rem;
 }
-.product-text{
+.product-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 3rem;
 }
-.product-text h2{
+.product-text h2 {
   font-weight: 300;
   font-size: 50px;
 }
-.product-text a{
+.product-text a {
   color: #11d911;
   text-transform: uppercase;
   text-decoration: none;
 }
-.product-image{
+.product-image {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
-.product-image figure{
+.product-image figure {
   background: #e6e2e2;
   width: 40%;
   border-radius: 18px;
 }
 strike {
   color: #b5b2b2;
-} 
-figcaption{
+}
+figcaption {
   text-align: center;
   font-size: 24px;
   color: #171717;
@@ -104,10 +102,10 @@ figcaption{
   width: 100%;
   margin: 2rem 0;
 }
-figure img{
+figure img {
   width: 100%;
 }
-figure button{
+figure button {
   font-size: 14px;
   background: #2323df;
   color: #ffffff;
@@ -118,7 +116,7 @@ figure button{
   border: none;
   margin-top: 2rem;
 }
-.nuratrue{
+.nuratrue {
   background: #2323df;
   color: #ffffff;
   display: flex;
@@ -126,72 +124,72 @@ figure button{
   width: 100%;
   align-items: center;
 }
-.nuratrue-image{
+.nuratrue-image {
   height: 115vh;
 }
-.nuratrue-image img{
+.nuratrue-image img {
   width: 90%;
 }
-.nuradetails{
-  width: 59%;  
+.nuradetails {
+  width: 59%;
 }
-.nuradetails h2{
+.nuradetails h2 {
   font-size: 64px;
   font-weight: 400;
-  line-height: 70px; 
+  line-height: 70px;
 }
-.nuradetails p{
+.nuradetails p {
   font-size: 24px;
 }
-.nuradetails a{
+.nuradetails a {
   color: #11d911;
 }
-.nuradetails a:hover{
+.nuradetails a:hover {
   color: #076a07;
 }
-.nurabackup{
+.nurabackup {
   background: url(../public/nuraback.png) no-repeat center;
   width: 100%;
   height: 100vh;
   color: #ffffff;
   margin: 5rem 0;
 }
-.nurabackup-text{
+.nurabackup-text {
   float: right;
-  margin:5rem;
+  margin: 5rem;
   margin-bottom: 2rem;
 }
-.nurabackup-text h2{
+.nurabackup-text h2 {
   font-size: 60px;
   font-weight: 400;
   line-height: 70px;
   margin-bottom: 1.5rem;
 }
-.nurabackup-text p{
+.nurabackup-text p {
   font-size: 20px;
   letter-spacing: 1.3px;
 }
-.nurabackup-text a{
+.nurabackup-text a {
   color: #11d911;
 }
-.subscription{
+.subscription {
   background: url(../public/person.png) no-repeat;
   background-size: 100%;
   width: 100%;
-  color:#ffffff;
+  color: #ffffff;
   padding-top: 8rem;
   text-align: center;
 }
-.subscription h3{
+.subscription h3 {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
 }
-.subscription p{
+.subscription p {
   font-size: 20px;
   line-height: 38px;
 }
-.subscription button{
+.subscription button {
   border: none;
   margin-top: 60px;
   padding: 0.8rem 4rem;
@@ -202,216 +200,214 @@ figure button{
   border-radius: 22px;
   margin-bottom: 200px;
 }
-.youtube{
+.youtube {
   background: #ebe9e9;
-   padding: 12rem;
+  padding: 12rem;
   text-align: center;
   margin: 3rem;
 }
-.featured{
+.featured {
   background: #272727;
   width: 100%;
 }
-.featured-image{
+.featured-image {
   width: 90%;
   text-align: center;
 }
-.featured p{
+.featured p {
   font-size: 30px;
   text-transform: uppercase;
   color: #11d911;
   text-align: center;
 }
-footer{
+footer {
   color: #ffffff;
   padding: 3rem 2rem;
   align-items: center;
 }
-.footer{
+.footer {
   display: flex;
   margin-bottom: 2rem;
   gap: 4rem;
 }
-.footer h5{
+.footer h5 {
   font-size: 30px;
   font-weight: 400;
 }
-footer table{
+footer table {
   display: flex;
-  gap:7rem;
+  gap: 7rem;
 }
-footer ul{
+footer ul {
   list-style: none;
 }
-.head{
+.head {
   text-transform: uppercase;
   color: #737373;
 }
-.copyright{
+.copyright {
   display: flex;
   justify-content: space-between;
   padding-right: 80px;
   color: #737373;
 }
-.copyright ul{
+.copyright ul {
   display: flex;
   gap: 30px;
 }
 
-@media  screen and (max-width:768px) {
-  body{
-    overflow-x: hidden; 
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
   }
-  header .bar{
-    display: flex;
-    margin-left: 2rem;
-    font-size: 20px;
-  }
-  .bar:hover{
+.mobile.bar{
+  display: flex;
+  font-size: 2px;
+}
+  .bar:hover {
     color: #b4e6b4;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 20px;
   }
-  .header-nav{
-  display: none;
-  }
-.mobile{
+  
+.mobile {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
   }
-  .mobile ul{
-    position: absolute;
-    right: -1001%;
+
+  .mobile ul {
+    display: none;
+    flex-direction: column;
     list-style: none;
-    gap: 1rem;
+    line-height: 35px;
   }
-  .open{
-    right: 5%;
+  .mobile ul.show {
+    display: flex;
   }
-  .mobile p{
+  .mobile p {
     font-size: 18px;
   }
-  .header-text{
-    margin-top: 6rem;
+  .header-text {
+    margin-top: 2rem;
   }
-  .header-text h1{
+  .header-text h1 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 50px;
-    line-height: 110px;
+    line-height: 90px;
+    font-size: 30px;
   }
-  .product-text{
+  .product-text {
     flex-direction: column;
+    text-align: center;
   }
-  .product-image{
+  .product-image {
     flex-direction: column;
     align-items: center;
   }
-  .product-image figure{
+  .product-image figure {
     width: 70%;
   }
-  .nuratrue{
+  .nuratrue {
     flex-direction: column-reverse;
     gap: 4rem;
   }
- .nurabackup{
-  margin-top: 16rem;
- }
- .youtube{
-  padding: 0;
- }
-  .footer{
+  .nurabackup {
+    margin-top: 16rem;
+  }
+  .youtube {
+    padding: 0;
+  }
+  .footer {
     flex-direction: column;
   }
-  footer table{
+  footer table {
     flex-direction: column;
     gap: 3rem;
   }
-  .copyright{
+  .copyright {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
   }
-  .copyright ul{
+  .copyright ul {
     flex-direction: column;
   }
 }
 
-@media  screen and (min-width:769px) and (max-width:991px){
-  body{
-    overflow-x: hidden; 
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .header-nav {
+    display: none;
   }
-  header .bar{
+  .mobile.bar{
     display: flex;
-    margin-left: 2rem;
-    font-size: 20px;
   }
-  .bar:hover{
+  .bar:hover {
     color: #b4e6b4;
     cursor: pointer;
     font-size: 26px;
   }
-  .header-nav{
-  display: none;
-  }
-  header .mobile{
+  
+  .mobile {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
   }
-  .mobile ul{
-    position: absolute;
-    left: 1001%;
+  .mobile ul {
+    display: none;
+    flex-direction: column;
     list-style: none;
-    gap: 1rem;
+    line-height: 35px;
   }
-  .open{
-    right: 5%;
+  .mobile ul.show {
+    display: flex;
   }
-  .mobile p{
+  .mobile p {
     font-size: 18px;
   }
-  .header-text{
+  .header-text {
     margin-top: 12rem;
   }
-  .header-text h1{
+  .header-text h1 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 50px;
     line-height: 110px;
   }
-  .product-text{
+  .product-text {
     flex-direction: column;
   }
-  .product-image{
+  .product-image {
     flex-direction: column;
     align-items: center;
   }
-  .product-image figure{
+  .product-image figure {
     width: 70%;
   }
-  .nuratrue{
+  .nuratrue {
     flex-direction: column-reverse;
     gap: 4rem;
   }
- .nurabackup{
-  margin-top: 16rem;
- }
- .youtube{
-  padding: 10rem;
- }
-  .footer{
+  .nurabackup {
+    margin-top: 16rem;
+  }
+  .youtube {
+    padding: 10rem;
+  }
+  .footer {
     flex-direction: column;
   }
-  footer table{
+  footer table {
     flex-direction: column;
     gap: 3rem;
   }
-  .copyright{
+  .copyright {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
   }
-  .copyright ul{
+  .copyright ul {
     flex-direction: column;
   }
 }

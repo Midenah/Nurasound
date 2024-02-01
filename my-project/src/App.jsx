@@ -1,8 +1,7 @@
 import { GrYoutube } from "react-icons/gr";
 import { PiFanFill } from "react-icons/pi";
-import { FaBars } from "react-icons/fa";
 import "./App.css";
-
+import Navbar from "./navbar";
 function App() {
   return (
     <>
@@ -20,22 +19,7 @@ function App() {
           </ul>
           <p>Cart(0)</p>
         </nav>
-        <nav className="mobile">
-          <span>
-            <PiFanFill />
-            nura
-          </span>
-          <div className="bar">
-            <FaBars />
-          </div>
-          <ul>
-            <li>Products</li>
-            <li>Subcription</li>
-            <li>Why Nura?</li>
-            <li>Support</li>
-          </ul>
-          <p>Cart(0)</p>
-        </nav>
+        <Navbar/>
         <div className="header-text">
           <h3>our biggest sale now live</h3>
           <h1>Black Friday Starts Now!</h1>
