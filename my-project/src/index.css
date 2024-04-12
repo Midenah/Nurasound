@@ -1,3 +1,39 @@
+/* animations */
+@keyframes fades{
+  0%{
+    opacity: 0;
+    transform: translatex(-4rem);
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop-in{
+  0%{
+    opacity: 0;
+    transform: translatey(-4rem) scale(.8);
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pulse{
+  0%{
+    opacity: 1;
+    transform: none;
+  }
+  50%{
+    opacity: .8;
+    transform: scale(.8);
+  }
+  100%{
+  opacity: 1;
+  transform: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +44,8 @@ body {
   overflow-x: hidden;
 }
 header {
-  background: url(../public/images/background.png) no-repeat;
+  animation: fades 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  background: url(/images/background.png) no-repeat;
   color: #ffffff;
   align-items: center;
   background-size: 100%;
@@ -27,6 +64,7 @@ header {
 header li {
   font-size: 18px;
   align-items: center;
+  cursor: pointer;
 }
 .mobile {
   display: none;
@@ -37,22 +75,32 @@ header p {
 .header-text {
   margin-top: 20rem;
 }
-header h3 {
+.pop-in{
+  animation: pop-in .6s ease-out backwards;
+}
+.pop-in::before{
+  opacity: 0;
+}
+.first-text{
   font-weight: 400;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  animation-delay: .6s;
 }
-header h1 {
+.second-text{
   text-align: center;
   font-weight: 600;
   font-size: 64px;
   line-height: 110px;
+  animation-delay: .8s;
 }
-.btn {
+.btn{
   text-align: center;
+  animation-delay: .9s;
 }
 header button {
+  animation: pulse 2s 3s ease-out infinite;
   margin-bottom: 120px;
   text-transform: uppercase;
   border-radius: 24px;
@@ -106,6 +154,7 @@ figure img {
   width: 100%;
 }
 figure button {
+  animation: pulse 2s 3s ease-out infinite;
   font-size: 14px;
   background: #2323df;
   color: #ffffff;
@@ -115,6 +164,7 @@ figure button {
   padding: 0.5rem 2rem;
   border: none;
   margin-top: 2rem;
+  cursor: pointer;
 }
 .nuratrue {
   background: #2323df;
@@ -190,6 +240,7 @@ figure button {
   line-height: 38px;
 }
 .subscription button {
+  animation: pulse 2s 3s ease-out infinite;
   border: none;
   margin-top: 60px;
   padding: 0.8rem 4rem;

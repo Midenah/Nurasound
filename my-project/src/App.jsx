@@ -21,10 +21,10 @@ function App() {
         </nav>
         <Navbar/>
         <div className="header-text">
-          <h3>our biggest sale now live</h3>
-          <h1>Black Friday Starts Now!</h1>
-          <div className="btn">
-            <button>shop sale now </button>
+          <h3 className="first-text pop-in">our biggest sale now live</h3>
+          <h1 className=" second-text pop-in">Black Friday Starts Now!</h1>
+          <div className="btn pop-in">
+            <button className="">shop sale now </button>
           </div>
         </div>
       </header>
