@@ -8,21 +8,21 @@ function App() {
       <header>
         <nav className="header-nav">
           <ul>
-            <li>
+            <a href="" className="logo">
               <PiFanFill />
-              nura
-            </li>
-            <li>Products</li>
-            <li>Subcription</li>
-            <li>Why Nura?</li>
-            <li>Support</li>
+              Nura
+            </a>
+            <a href="">Products</a>
+            <a href="">Subcription</a>
+            <a href="">Why Nura?</a>
+            <a href="">Support</a>
           </ul>
           <p>Cart(0)</p>
         </nav>
         <Navbar/>
         <div className="header-text">
-          <h3 className="first-text pop-in">our biggest sale now live</h3>
-          <h1 className=" second-text pop-in">Black Friday Starts Now!</h1>
+          <h3 className="first-header-text pop-in">our biggest sale now live</h3>
+          <h1 className=" second-header-text pop-in">Black Friday Starts Now!</h1>
           <div className="btn pop-in">
             <button className="">shop sale now </button>
           </div>

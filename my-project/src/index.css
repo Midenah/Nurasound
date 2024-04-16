@@ -61,10 +61,30 @@ header {
   display: flex;
   gap: 5rem;
 }
-header li {
+a {
+  position: relative;
   font-size: 18px;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+a::after{
+  border-radius: 1em;
+  border-top: .1em solid #ffffff;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: .14em;
+  left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1);
+}
+a:hover{
+  text-decoration: none;
+  color: #cac2c2;
+}
+a:hover::after{
+  right: 0;
 }
 .mobile {
   display: none;
@@ -81,14 +101,14 @@ header p {
 .pop-in::before{
   opacity: 0;
 }
-.first-text{
+.first-header-text{
   font-weight: 400;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   animation-delay: .6s;
 }
-.second-text{
+.second-header-text{
   text-align: center;
   font-weight: 600;
   font-size: 64px;
@@ -138,6 +158,9 @@ header button {
   background: #e6e2e2;
   width: 40%;
   border-radius: 18px;
+}
+.product-image figure:hover{
+  transform: translateY(1.25em);
 }
 strike {
   color: #b5b2b2;
@@ -360,6 +383,9 @@ footer ul {
   .product-image figure {
     width: 70%;
   }
+  .product-image figure:hover{
+    width: 80%;
+  }
   .nuratrue {
     flex-direction: column-reverse;
     gap: 4rem;
@@ -435,6 +461,9 @@ footer ul {
   }
   .product-image figure {
     width: 70%;
+  }
+  .product-image figure:hover{
+    width: 80%;
   }
   .nuratrue {
     flex-direction: column-reverse;
